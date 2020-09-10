@@ -47,7 +47,7 @@ def report_cost(event, context):
                 }
             }
         },
-        "Metrics": ["UnblendedCost"],
+        "Metrics": ["AmortizedCost"],
         "GroupBy": [
             {
                 "Type": "DIMENSION",
@@ -66,7 +66,7 @@ def report_cost(event, context):
     for day in result['ResultsByTime']:
         for group in day['Groups']:
             key = group['Keys'][0]
-            cost = float(group['Metrics']['UnblendedCost']['Amount'])
+            cost = float(group['Metrics']['AmortizedCost']['Amount'])
 
             cost_per_day_by_service[key].append(cost)
 

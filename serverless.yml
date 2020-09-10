@@ -26,3 +26,7 @@ functions:
       CREDITS_EXPIRE_DATE: ${opt:credits_expire_date}
       CREDITS_REMAINING_AS_OF: ${opt:credits_remaining_date}
       CREDITS_REMAINING: ${opt:credits_remaining}
+
+custom:
+  pythonRequirements:
+    pythonBin: /usr/local/bin/python3
