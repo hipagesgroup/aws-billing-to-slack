@@ -1,12 +1,13 @@
-from collections import defaultdict
-import boto3
 import datetime
 import os
-import requests
 import sys
+from collections import defaultdict
+
+import boto3
+import requests
 
 n_days = 7
-today = datetime.datetime.today()
+today = datetime.datetime.today() - datetime.timedelta(days=1)
 week_ago = today - datetime.timedelta(days=n_days)
 
 sparks = ['▁', '▂', '▃', '▄', '▅', '▆', '▇'] # Leaving out the full block because Slack doesn't like it: '█'
