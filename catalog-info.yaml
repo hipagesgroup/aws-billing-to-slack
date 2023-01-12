@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-billing-to-slack
+  description: >-
+    Send a daily AWS cost report to a Slack channel of your choice.
+  annotations:
+    github.com/project-slug: hipagesgroup/aws-billing-to-slack
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform
