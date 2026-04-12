@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-billing-to-slack-lambda
+  title: AWS Billing to Slack Reporter
+  description: >-
+    Scheduled AWS Lambda function that queries the Cost Explorer API daily and
+    posts a 7-day AWS spend breakdown by service to a configured Slack webhook.
+  annotations:
+    github.com/project-slug: hipagesgroup/aws-billing-to-slack
+    github.com/team-slug: site-reliability-engineering
+  tags:
+    - repo
+    - python
+    - serverless
+    - aws-lambda
+    - slack
+spec:
+  type: cloud-function
+  lifecycle: production
+  owner: site-reliability-engineering
+  domain: site-reliability
