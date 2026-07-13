@@ -1,5 +1,5 @@
-[![Link to aws-billing-to-slack-lambda in hipages Developer Portal, Component: aws-billing-to-slack-lambda](https://backyard.k8s.hipages.com.au/api/badges/entity/default/component/aws-billing-to-slack-lambda/badge/pingback "Link to aws-billing-to-slack-lambda in hipages Developer Portal")](https://backyard.k8s.hipages.com.au/catalog/default/component/aws-billing-to-slack-lambda)
-[![Entity owner badge, owner: site-reliability-engineering](https://backyard.k8s.hipages.com.au/api/badges/entity/default/component/aws-billing-to-slack-lambda/badge/owner "Entity owner badge")](https://backyard.k8s.hipages.com.au/catalog/default/component/aws-billing-to-slack-lambda)
+[![Link to aws-billing-to-slack-lambda in hipages Developer Portal, Component: aws-billing-to-slack-lambda](https://backyard.prod.hipages.com.au/api/badges/entity/default/component/aws-billing-to-slack-lambda/badge/pingback "Link to aws-billing-to-slack-lambda in hipages Developer Portal")](https://backyard.prod.hipages.com.au/catalog/default/component/aws-billing-to-slack-lambda)
+[![Entity owner badge, owner: site-reliability-engineering](https://backyard.prod.hipages.com.au/api/badges/entity/default/component/aws-billing-to-slack-lambda/badge/owner "Entity owner badge")](https://backyard.prod.hipages.com.au/catalog/default/component/aws-billing-to-slack-lambda)
 # AWS Billing to Slack
 
 ![image](https://user-images.githubusercontent.com/261584/66362145-3903a200-e947-11e9-91bd-6e40e5919ac4.png)
